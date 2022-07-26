@@ -1,0 +1,29 @@
+{
+    "name": "pandawa/dependency-injection-contracts",
+    "description": "The pandawa dependency injection contracts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/config": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pandawa\\Contracts\\DependencyInjection\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
